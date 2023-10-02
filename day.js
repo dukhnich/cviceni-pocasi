@@ -29,4 +29,5 @@ if (!dayData) {
             <p>${dayData.popis_pocasi}</p>
         </section>
     `
+    document.title = dayData.den;
 }
